@@ -3,7 +3,10 @@
 
 /// This enumeration is for custom keycodes themselves
 enum custom_keycodes {
-  KVM_SW = SAFE_RANGE
+  KVM_SW = SAFE_RANGE,
+  KB_CPY_STRT, //< keyboard copy
+  KB_CPY_END,
+  KB_PST  //< keyboard paste
 };
 
 /// the following define stands for quantum caps
